@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'propisiregular';
+    src: url('../fonts/propisi-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Arial", sans-serif;
+	background-color: #f8f8f8
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-title { 
+	text-align: center;
+	margin: 0;
+	margin-bottom: 50px;
+	padding: 0;
+	padding-top: 50px;
+
+	font-family: "propisiregular", "Arial", sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	color: #555555;
+}
+
+.main-title a {
+	font-family: "propisiregular", "Arial", sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	color: #555555;
+}
+
+.main-title a:hover {
+	color: #888888;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+	background-color: #ffffff;
+}
+
+.main-navigation-wrap {
+	padding-bottom: 50px;
+
+}
+
+.main-navigation {
+	display: flex;
+	justify-content: center;
+
+	margin: 0 auto;
+	padding: 0;
+	width: 1210px;
+	border-radius: 5px;
+	border: 1px solid #e7e7e7;
+	
+	background-color: #f8f8f8;
+}
+
+.books-list {
+	margin: 0;
+
+	padding: 0;
+	list-style: none;
+}
+
+.books-list li {
+	display: inline-block;
+	margin: 0;
+	margin-right: -4px;
+}
+
+.books-list a {
+	display: block;
+	padding: 16px 15px;
+	margin: 0;
+
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #777777;
+	
+}
+
+.books-list a:hover,
+.books-list a:focus {
+	color: #333333;
+}
+
+.books-list .books-list-current a {
+	background-color: #e7e7e7;
+	color: #555555;
+	cursor: default;
+}
+
+.lessons-menu,
+.tests-menu {
+	margin: 0;
+
+	border: 1px dotted blue;
+}
+
+/*HTML и CSS*/
+

@@ -1,0 +1,168 @@
+html, body {
+	padding: 0;
+	margin: 0;
+
+	font-family: "Times New Roman", serif;
+	background-color: #ebebeb;
+}
+
+.container {
+	box-sizing: border-box;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main-header {
+	background-color: #242424;
+}
+
+.main-navigation {
+	
+	margin-bottom: 30px;
+}
+
+.site-navigation {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.site-navigation a {
+	display: block;
+	text-decoration: none;
+	font: 19px/50px "Times New Roman", serif;
+	color: #fff;
+	padding: 0 20px; 
+}
+
+.active a {
+	background-color: #585858;
+}
+
+.site-navigation a:hover {
+	background-color: #585858;
+}
+
+.columns {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px 10px 20px;
+	background-color: #fff;
+
+	margin-bottom: 30px;
+}
+
+.aside {
+	width: 210px;
+}
+
+.aside h3 {
+	font-size: 17px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.aside p {
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.aside img {
+	margin: 10px 0;
+	padding: 0;
+	
+}
+
+.column-center {
+	width: 600px;
+}
+
+.column-center h1 {
+	font-size: 21px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.column-center h2 {
+	font-size: 19px;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.column-center p {
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.column-center img {
+	margin-bottom: 10px;
+}
+
+.main-footer {
+	background-color: #242424;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	padding-top: 30px;
+}
+
+.article-list {
+	display: flex;
+	justify-content: space-between;
+	
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	list-style: none;
+}
+
+.article-list li {
+	width: 244px;
+	background-color: #ebebeb;
+	padding: 10px 10px 50px;
+	text-align: center;
+}
+
+.article-list h1 {
+	font-size: 20px;
+	
+	margin: 0;
+	padding: 0;
+}
+
+.article-list p {
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0px 5px; 
+}
+
+.article-list .underline {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #9a9a9a;
+}
+
+.article-list .bottom {
+	padding: 0;
+}
+
+.footer-address {
+	font-size: 13px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
