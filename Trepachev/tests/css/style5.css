@@ -1,0 +1,163 @@
+html, body {
+	padding: 0;
+	margin: 0;
+
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.main-header {
+	background-color: #008040;
+	padding: 0;
+	margin: 0;
+
+	padding-bottom: 8px;
+}
+
+.container {
+	width: 840px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.even {
+	color: #000000;
+}
+
+.main-header h1 {
+	font-size: 35px;
+	line-height: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+.main-header p {
+	font-size: 21px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.services {
+	background-color: #ffffff;
+
+	padding: 30px 0 20px;
+
+}
+
+.services h2 {
+	font-size: 27px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.services-list {
+	text-align: justify;
+	list-style: none;
+	padding: 0;
+	margin: 0; 
+	counter-reset: num;
+}
+
+.services-list li {
+	margin-bottom: 10px;
+}
+
+.services-list li::before {
+	counter-increment: num;
+	content: counter(num) ".";
+
+	
+	padding-right: 5px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.contacts {
+	background-color: #c60304;
+	padding: 10px 0 20px;
+
+}
+
+.contacts h2 {
+	font-size: 27px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	
+}
+
+.contacts p {
+	padding: 0;
+	margin: 0;
+}
+
+.features {
+	background-color: #ffffff;
+	padding: 30px 0 20px;
+
+}
+
+.features h2 {
+	font-size: 27px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.features p {
+	text-align: justify;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.customers {
+	background-color: #ff8040;
+	padding: 20px 0 20px;
+}
+
+.customers h2 {
+	font-size: 27px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.customers-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.customers-list li {
+	width: 205px;
+	height: 100px;
+	border: 1px solid #000000;
+
+	margin-bottom: 5px;
+}
+
+.customers-list img {
+	margin: 0;
+	padding: 0;
+}
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+	color: #ffffff;
+	margin: 0;
+	padding: 200px 0 5px;
+	
+
+	background-color: #912f00;
+}
