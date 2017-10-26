@@ -54,18 +54,18 @@ html, body {
 	margin-bottom: 30px;
 }
 
-.aside {
+aside {
 	width: 210px;
 }
 
-.aside h3 {
+aside h3 {
 	font-size: 17px;
 	padding: 0;
 	margin: 0;
 	margin-bottom: 10px;
 }
 
-.aside p {
+aside p {
 	font-size: 13px;
 	padding: 0;
 	margin: 0;
@@ -73,24 +73,24 @@ html, body {
 	text-align: justify;
 }
 
-.aside img {
+aside img {
 	margin: 10px 0;
 	padding: 0;
 	
 }
 
-.column-center {
+.center {
 	width: 600px;
 }
 
-.column-center h1 {
+.center h1 {
 	font-size: 21px;
 	padding: 0;
 	margin: 0;
 	margin-bottom: 10px;
 }
 
-.column-center h2 {
+.center h2 {
 	font-size: 19px;
 	padding: 0;
 	margin: 0;
@@ -98,7 +98,7 @@ html, body {
 	margin-bottom: 10px;
 }
 
-.column-center p {
+.center p {
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
@@ -106,7 +106,7 @@ html, body {
 	text-align: justify;
 }
 
-.column-center img {
+.center img {
 	margin-bottom: 10px;
 }
 
@@ -136,9 +136,9 @@ html, body {
 	text-align: center;
 }
 
-.article-list h1 {
+.article-list .title {
 	font-size: 20px;
-	
+	font-weight: bold;
 	margin: 0;
 	padding: 0;
 }
@@ -147,7 +147,7 @@ html, body {
 	font-size: 13px;
 	margin: 0;
 	margin-bottom: 5px;
-	padding: 0px 5px; 
+	padding: 0 5px; 
 }
 
 .article-list .underline {

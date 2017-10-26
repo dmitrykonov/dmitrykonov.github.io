@@ -1,0 +1,301 @@
+html, body {
+	padding: 0;
+	margin: 0;
+
+	font-family: "Times New Roman", serif;
+	background-color: #dddddd;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+
+	box-sizing: border-box;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main-header {
+	margin-top: 20px;
+	background-color: #242424;
+}
+
+.header-promo {
+
+	background-color: #eeeeee;
+}
+
+.header-caption {
+	font-size: 33px;
+	line-height: 50px;
+	color: #c60304;
+
+	padding: 0;
+	margin: 0;
+}
+
+.header-slogan {
+	font-size: 16px;
+	line-height: 50px;
+	color: #c60304;
+
+	padding: 0;
+	margin: 0;
+}
+
+.main-navigation {
+	background-color: #c60304;
+}
+
+.site-navigation {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.site-navigation a {
+	display: block;
+	text-decoration: none;
+	font: 19px/50px "Times New Roman", serif;
+	color: #fff;
+	padding: 0 20px; 
+}
+
+.active a {
+	background-color: #7d0202;
+}
+
+.site-navigation a:hover {
+	background-color: #7d0202;
+}
+
+ .user-menu {
+	background-color: #e6e6e6;
+
+	padding-bottom: 5px;
+} 
+
+ .user-navigation {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+	list-style: none;
+} 
+
+ .user-navigation a {
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	color: #666666;
+	padding: 0 20px;
+} 
+
+ .user-navigation a:hover {
+	text-decoration: none;
+} 
+
+ .login-link {
+	display: flex;
+
+} 
+
+ .login-description {
+	position: relative;
+	font-size: 16px;
+	line-height: 30px;
+	color: #666666;
+
+	padding: 0;
+	margin: 0;
+	padding-right: 6px;
+	
+} 
+
+  .login-description::after {
+  	content: "|";
+  	right: -1px;
+  	
+  	position: absolute;
+  }  
+
+ .login-link a {
+	font-size: 16px;
+	line-height: 30px;
+	color: #666666;
+
+	margin-left: 5px;
+
+} 
+
+.login-link a:hover {
+	text-decoration: none;
+}
+
+.columns {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+}
+
+aside {
+	width: 250px;
+}
+
+aside h3 {
+	font-size: 17px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+aside p {
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+aside img {
+	margin: 10px 0;
+	padding: 0;
+	
+}
+
+.right {
+	width: 560px;
+}
+
+.right h1 {
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.right h2 {
+	font-size: 19px;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.right p {
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.right img {
+	margin-bottom: 10px;
+}
+
+.main-footer {
+	background-color: #eeeeee;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-navigation {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-navigation li {
+	margin-bottom: 10px;
+}
+
+.footer-navigation a {
+	font-size: 15px;
+	color: #666666;
+	text-decoration: none;
+}
+
+.footer-navigation a:hover {
+	text-decoration: underline;
+}
+
+.footer-info {
+	width: 870px;
+}
+
+.footer-info p {
+	font-size: 13px;
+	color: #666666;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.footer-info .footer-article {
+	font-size: 20px;
+	color: #666666;
+	font-weight: bold;
+	padding: 0;
+}
+
+.footer-info .top {
+	line-height: 18px;
+}
+
+.footer-info .bottom {
+	padding: 10px 5px;
+	border-top: 1px solid #aaaaaa;
+}
+
+/* .article-list {
+	display: flex;
+	justify-content: space-between;
+	
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	list-style: none;
+}
+
+.article-list li {
+	width: 244px;
+	background-color: #ebebeb;
+	padding: 10px 10px 50px;
+	text-align: center;
+}
+
+.article-list .title {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.article-list p {
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0 5px; 
+}
+
+.article-list .underline {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #9a9a9a;
+}
+
+.article-list .bottom {
+	padding: 0;
+}
+
+.footer-address {
+	font-size: 13px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+} */
